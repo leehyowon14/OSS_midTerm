@@ -11,6 +11,8 @@
 ## 실행 방법
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
